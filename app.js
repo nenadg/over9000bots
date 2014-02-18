@@ -51,8 +51,8 @@ function run(){
                 // tweet new status with random message
                 oauth.post(
                     "https://api.twitter.com/1.1/statuses/update.json",
-                    '2349755682-HKKSs5wmp4lasLIWDZTP91RyweutO3NyBuhUZoG',
-                    'PIrYHvwdXuTAZfKC84UrYUqCCAyFzXByzao3dnRDSXU8d',
+                    '---key-----',
+                    '---secret-----',
                     { "status": messages[Math.floor(Math.random() * messages.length)] }, // if replying add: { status: @handle + message, "in_reply_to_status_id" : lastId },
                     function(e, d) { if(e) console.log(e) else  console.log(d.text); } );
                 
