@@ -1,0 +1,14 @@
+{
+  "name": "twitter-bot",
+  "version": "0.0.1",
+  "private": true,
+  "author":"Nenad Golubović <me@nenadg.com>",
+  "description":"auto-response bot",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express":"3",
+    "oauth":"0.9.11"
+  }
+}
